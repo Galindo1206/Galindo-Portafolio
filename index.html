@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio de David Galindo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <!-- Botón hamburguesa -->
+        <button id="menu-toggle" aria-label="Abrir menú">
+            <span class="menu-icon">&#9776;</span>
+          </button>
+        <nav>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>      
+  </header>
+
+  <section id="inicio" class="section-center">
+    <h1>Hola, soy David Galindo</h1>
+    <p>Desarrollador web y técnico en sistemas</p>
+  </section>
+
+  <section id="sobre-mi" class="section-center">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy un profesional con formación en Ingeniería de Sistemas, apasionado por
+      la programación web y el cableado estructurado. Busco crecer en el mundo
+      tecnológico y desarrollar proyectos que marquen la diferencia.
+    </p>
+  </section>
+
+  <section id="habilidades" class="section-center">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Programación en WordPress y WooCommerce</li>
+      <li>Cableado estructurado y redes</li>
+      <li>Atención al cliente y servicio</li>
+    </ul>
+  </section>
+
+  <section id="proyectos" class="section-center">
+    <h2>Proyectos</h2>
+    <div class="project-list">
+      <!-- Aquí puedes agregar tarjetas con proyectos -->
+      <div class="project-card">
+        <h3>Proyecto 1</h3>
+        <p>Descripción breve del proyecto.</p>
+        <a href="#" target="_blank">Ver más</a>
+      </div>
+      <div class="project-card">
+        <h3>Proyecto 2</h3>
+        <p>Descripción breve del proyecto.</p>
+        <a href="#" target="_blank">Ver más</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section-center">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 David Galindo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
