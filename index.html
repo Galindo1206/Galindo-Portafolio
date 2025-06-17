@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="description" content="Portafolio de David Galindo, desarrollador web y técnico en Ingeniería de Sistemas.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Fuente Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+      <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Portafolio de David Galindo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="logo02.jpg" alt="logo de david galindo" />
+    </div>
+
+    <nav id="navbar" aria-label="Menú principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <button id="menu-toggle" aria-label="Abrir menú">
+  <svg id="icon-open" xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+  <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" class="icon hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+  </svg>
+</button>
+  </div>
+</header>
+
+<section id="inicio" class="section-center show">
+  <div class="about-container-inicio">
+     <img src="galindo.jpg" alt="foto de david galindo" class="about-photo-inicio">
+    <div class="about-text-inicio">
+      <h2>Hola soy David</h2>
+      <p>Técnico en Ingeniería de Sistemas con conocimientos sólidos en desarrollo web (WordPress,
+ HTML, CSS, JavaScript) y experiencia práctica en cableado estructurado y soporte técnico.
+ También cuento con experiencia como representante de servicio al cliente en Sherwin-Williams y
+ como conductor en logística y entregas. Me destaco por ser una persona responsable, con
+ iniciativa, y con habilidades tanto técnicas como interpersonales.</p>
+    </div>
+
+</section>
+<section id="sobre-mi" class="section-center">
+  <div class="about-container-sobre-mi">
+    <div class="about-text-sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Técnico en Ingeniería de Sistemas con conocimientos sólidos en desarrollo web (WordPress,
+ HTML, CSS, JavaScript) y experiencia práctica en cableado estructurado y soporte técnico.
+ También cuento con experiencia como representante de servicio al cliente en Sherwin-Williams y
+ como conductor en logística y entregas. Me destaco por ser una persona responsable, con
+ iniciativa, y con habilidades tanto técnicas como interpersonales.</p>
+    </div>
+    <img src="thinking.jpg" alt="Tu foto" class="about-photo-sobre-mi">
+  </div>
+</section>
+ <section id="habilidades" class="section-center">
+    <h2>Habilidades</h2>
+    <div class="about-container-habilidades">
+      <img
+        src="code.jpg"
+        alt="Imagen representativa de habilidades"
+        class="about-photo-habilidades"
+        loading="lazy"
+      />
+      <div class="about-text-habilidades">
+        <ul>
+          <li><i class="fas fa-code"></i> HTML, CSS, JavaScript, PHP básico</li>
+          <li><i class="fas fa-database"></i> MySQL básico</li>
+          <li><i class="fas fa-wordpress-simple"></i> WordPress y WooCommerce</li>
+          <li><i class="fas fa-cloud"></i> Herramientas: Elementor, cPanel, FTP, Hostinger, Visual Studio Code</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="section-center">
+    <h2>Proyectos</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Tienda Online</h3>
+        <p>Diseño de una tienda en línea con WordPress y WooCommerce.</p>
+        <a href="#">Ver proyecto</a>
+      </div>
+            <div class="project-card">
+        <h3>Tienda Online</h3>
+        <p>Diseño de una tienda en línea con WordPress y WooCommerce.</p>
+        <a href="#">Ver proyecto</a>
+      </div>
+            <div class="project-card">
+        <h3>Tienda Online</h3>
+        <p>Diseño de una tienda en línea con WordPress y WooCommerce.</p>
+        <a href="#">Ver proyecto</a>
+      </div>
+            <div class="project-card">
+        <h3>Tienda Online</h3>
+        <p>Diseño de una tienda en línea con WordPress y WooCommerce.</p>
+        <a href="#">Ver proyecto</a>
+      </div>
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>Página de presentación para un negocio local.</p>
+        <a href="#">Ver proyecto</a>
+      </div>
+            <div class="project-card">
+        <h3>Tienda Online</h3>
+        <p>Diseño de una tienda en línea con WordPress y WooCommerce.</p>
+        <a href="#">Ver proyecto</a>
+      </div>
+    </div>
+    
+  </section>
+
+  <section id="contacto" class="section-center">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Correo" required />
+      <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 David Galindo - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
